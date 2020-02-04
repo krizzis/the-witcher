@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'MasonChronicles';
+    src: url('../fonts/MasonChronicles.woff') format('woff'),
+         url('../fonts/MasonChronicles.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+body {
+    background-color: #141218;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffff;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-bottom: 90px;
+}
+
+.menu-list {
+    margin-right: auto;
+    margin-left: 67px;
+}
+
+.menu-link {
+    font-style: 14px;
+    line-height: 16px;
+    color: #ffff;
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+.social-link {
+    margin-right: 21px;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+}
+
+.genre {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating-number {
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 9px;
+}
+
+.main-title {
+    font-family: 'MasonChronicles', serif;
+    font-size: 76px;
+    line-height: 89px;
+    margin-bottom: 10px;
+}
+
+.main-description {
+    max-width: 458px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.button {
+    background: #9D2929;
+    border-radius: 8px;
+    padding: 22px 72px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffff;
+    margin-top: 40px;
+    border: none;
+}
+
+
+.play-img {
+    position: relative;
+    transform: translateX(5px);
+}
+
+.play {
+    width: 100px;
+    height: 100px;
+    background: #9D2929;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    margin: auto;
+}
+
+
+.play:before {
+    content: "";
+    background: #9D2929;
+    opacity: 0.5;
+    width: 132px;
+    height: 132px;
+    position: absolute;
+    border-radius: 50%;
+    left: -16px;
+    top: -16px;
+}
+
